@@ -1,7 +1,24 @@
 aid: helloflo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helloflo.png
 name: HelloFlo
-description: HelloFlo is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: HelloFlo was a women's-health startup (a 500 Global / 500 Startups portfolio company)
+  known for its subscription boxes and viral marketing. As of this enrichment pass its helloflo.com
+  domain returns a permanent 301 redirect to theflowspace.com (Flow Space), a women's-health digital
+  media platform owned by Penske Media Corporation. HelloFlo no longer operates as an independent
+  company and publishes no public API, developer portal, documentation, SDKs, or any technical /
+  developer surface. This profile is retained as a defunct/redirected network lead; there is nothing
+  for the enrichment pipeline to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/helloflo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,19 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-redirect
+x-redirects-to: https://theflowspace.com/
+x-enriched: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Women's Health
+- Wellness
+- Media
+- Content
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://helloflo.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
