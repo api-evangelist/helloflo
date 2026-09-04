@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://helloflo.com', status: 301, note: 'declared website redirects to https://www.theflowspace.com/ — a different registrable domain (helloflo.com -> theflowspace.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helloflo.png
 name: HelloFlo
 description: HelloFlo was a women's-health startup (a 500 Global / 500 Startups portfolio company)
