@@ -18,20 +18,21 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://helloflo.com
+    status: 301
+    note: declared website redirects to https://www.theflowspace.com/ — a different registrable domain
+      (helloflo.com -> theflowspace.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://helloflo.com', status: 301, note: 'declared website redirects to https://www.theflowspace.com/ — a different registrable domain (helloflo.com -> theflowspace.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helloflo.png
 name: HelloFlo
-description: HelloFlo was a women's-health startup (a 500 Global / 500 Startups portfolio company)
-  known for its subscription boxes and viral marketing. As of this enrichment pass its helloflo.com
-  domain returns a permanent 301 redirect to theflowspace.com (Flow Space), a women's-health digital
-  media platform owned by Penske Media Corporation. HelloFlo no longer operates as an independent
-  company and publishes no public API, developer portal, documentation, SDKs, or any technical /
-  developer surface. This profile is retained as a defunct/redirected network lead; there is nothing
-  for the enrichment pipeline to harvest.
+description: HelloFlo was a women's-health startup (a 500 Global / 500 Startups portfolio company) known
+  for its subscription boxes and viral marketing. As of this enrichment pass its helloflo.com domain returns
+  a permanent 301 redirect to theflowspace.com (Flow Space), a women's-health digital media platform owned
+  by Penske Media Corporation. HelloFlo no longer operates as an independent company and publishes no
+  public API, developer portal, documentation, SDKs, or any technical / developer surface. This profile
+  is retained as a defunct/redirected network lead; there is nothing for the enrichment pipeline to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/helloflo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,12 +40,12 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: defunct-redirect
+x-status: defunct
 x-redirects-to: https://theflowspace.com/
 x-enriched: '2026-07-19'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Women's Health
